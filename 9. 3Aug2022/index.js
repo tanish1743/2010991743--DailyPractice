@@ -6,6 +6,15 @@ function fnAdd(){
     l = Number(l);
     r = Number(r);
     k = Number(k);
+    var count = 0;
 
-    document.getElementById("p1").innerHTML = l + r + k;
+    for(let i=l;i<=r;i++){
+        if(i%k == 0){
+            count +=1;
+            
+        }
+        document.getElementById("p1").innerHTML = count;
+    }
+
+    // document.getElementById("p1").innerHTML = l + r + k;
 }
