@@ -1,0 +1,25 @@
+         body{
+            background:url('download.jpg');
+            background-repeat: repeat-y;
+            background-color: aqua;
+            background: linear-gradient(
+                to top,
+                 rgb(204,229,255),
+                 rgba(204,229,255,0.4)
+                 );
+                 font-size: 1.15em;
+                 text-align: justify;
+        }
+        #myTitle{
+            color: green;
+            background-color: yellow;
+            text-align: center;
+        }
+        p{
+            color: red;
+            text-align: center;
+        }
+        .h1element{
+            color: purple;
+            text-align: center;
+        }
