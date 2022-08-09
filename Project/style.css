@@ -16,10 +16,11 @@ body {
   min-height: 100vh;
 }
 .heading1 {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light", fantasy;
   text-align: center;
   font-size: 50px;
   margin: 50px auto;
+  color: royalblue;
 }
 #t {
   font-size: 30px;
@@ -28,17 +29,15 @@ body {
   width: 500px;
   height: 50px;
   background-color: #81dcdf;
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
 
 }
 input:valid {
-  /* font-size: ; */
   font-weight: normal;
   color: green;
 }
 input:invalid {
-  /* font-size: large; */
   font-weight: normal;
   color: red;
 }
