@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first{
+            width: 90vw;
+            height: 80px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: darkviolet;
+        }
+        .emp{
+            width: 90vw;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .emp p{
+            font-size: 50px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: blue;
+        }
+        .sec{
+            width: 90vw;
+            height: 120px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            margin-left: 10px;
+            border: 5px solid red;
+        }
+        .sec :first-child{
+            background-color: rgb(213, 204, 222);
+            color: darkorange;
+        }
+        .sec :nth-child(2){
+            background-color: white;
+            border: solid;
+            border-width: 10px;
+            border-color: greenyellow;
+            color: red;
+        }
+        .sec :nth-last-child(1){
+            background-color: gainsboro;
+            color: purple;
+        }
+        .third{
+            background-color: blue;
+            padding: 5px 5px;
+            width: 90vw;
+            font-size: 10px;
+            color: brown;
+        }
+        .ln{
+            width: 98%;
+            height: 50px;
+            background-color: white;
+            margin: 5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        <p>Tanish Jindal</p>
+    </div>
+    <div class="emp">
+        <p>My Webpage</p>
+    </div>
+    <div class="sec">
+        <div class="box">Element 1</div>
+        <div class="box">Element 2</div>
+        <div class="box">Element 3</div>
+    </div>
+    <div class="third">
+        <div class="ln">1</div>
+        <div class="ln">2</div>
+        <div class="ln">3</div>
+    </div>
+</body>
+</html>
