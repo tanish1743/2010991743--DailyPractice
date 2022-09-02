@@ -1,7 +1,7 @@
-const Header=()=>{
+const Header=(props)=>{
     return(
         <header>
-            <h1>Hellooo Brother</h1>
+            <h1>Hellooo Brother {props.title}</h1>
         </header>
     )
 };
