@@ -5,9 +5,8 @@ import Header from './component/Header';
 function App() {
   return (
     <div className="container">
-      <Header title='React Tutorial' />
+      <Header />
     </div>
-    
   );
 }
 
