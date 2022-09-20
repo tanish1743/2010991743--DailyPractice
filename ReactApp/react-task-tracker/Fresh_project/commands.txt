@@ -1,0 +1,36 @@
+git --version
+git inti
+git add . or git add <filename>
+git commit -m "Message"
+git log
+
+
+git branch
+git branch dev
+git checkout dev
+git checkout -b tanish/multiply
+git checkout -b tanish/add
+// create the multiply.java
+git add
+git commit -m "commited Multiply"
+git status
+git checkout dev
+git merge tanish/multiply
+git log
+git checkout master
+git log
+git merge dev (now multiply.java in dev branch working fine)
+
+
+…or create a new repository on the command line
+echo "# LetsLearnGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tanish1743/LetsLearnGit.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/tanish1743/LetsLearnGit.git
+git branch -M main
+git push -u origin main
