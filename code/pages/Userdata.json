@@ -1,0 +1,14 @@
+[
+    {
+        "Name":"Rafiq",
+        "Email":"qureshi.rafiq111@gmail.com",
+        "Mobile":123456789,
+        "Address":"Kashmir"
+    },
+    {
+        "Name":"Sharma",
+        "Email":"Sharma@gmail.com",
+        "Mobile":1234567890,
+        "Address":"Punjab"
+    }
+]
