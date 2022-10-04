@@ -3,5 +3,24 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.2.1",
     "react-router-dom": "^5.3.0"
-  }
+  },
+  "name": "2010991743--dailypractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanish1743/2010991743--DailyPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanish1743/2010991743--DailyPractice/issues"
+  },
+  "homepage": "https://github.com/tanish1743/2010991743--DailyPractice#readme",
+  "description": ""
 }
