@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+
+    <style>
+        html {
+    background-color: #0d853b;
+    background-image: -webkit-linear-gradient(75deg, #90f897 45%, #74f4f6 55%);
+    min-height: 568px;
+    font-family: Poppins;
+  }
+  
+  h1 {
+    color: red;
+    padding: 10px;
+  }
+  
+  .box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #heading {
+    background-color: rgb(252, 252, 93);
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #3c44e0;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  button {
+    min-height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #d11919;
+    color: rgb(222, 245, 132);
+    font-size: 25px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #f81c1c;
+  }
+  
+  ::placeholder {
+    color: rgb(122, 110, 229);
+    opacity: 1;
+  }
+    </style>
+</head>
+<body>
